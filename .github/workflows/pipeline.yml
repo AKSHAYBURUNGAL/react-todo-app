@@ -21,9 +21,11 @@ jobs:
           node-version: '16'
 
       - name: Install dependencies
+        working-directory: frontend
         run: npm install
 
       - name: Run tests
+        working-directory: frontend
         run: npm test
 
   build-and-deploy:
@@ -65,9 +67,9 @@ jobs:
           kubectl rollout status deployment/my-app
 
       - name: Notify on success
-        if: success()
+        if: ${{ success() }}
         run: echo "Deployment succeeded!"
 
       - name: Notify on failure
-        if: failure()
+        if: ${{ failure() }}
         run: echo "Deployment failed!"
