@@ -20,11 +20,11 @@ jobs:
         with:
           node-version: '16'
 
-      - name: Install dependencies
+      - name: Install dependencies for frontend
         working-directory: frontend
         run: npm install
 
-      - name: Run tests
+      - name: Run tests for frontend
         working-directory: frontend
         run: npm test
 
