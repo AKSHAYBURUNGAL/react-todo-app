@@ -5,6 +5,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
+    image: admin335/frontend:latest  # Tag for Docker Hub
     ports:
       - "3000:80"
     depends_on:
@@ -16,6 +17,7 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
+    image: admin335/backend:latest  # Tag for Docker Hub
     ports:
       - "5000:5000"
     environment:
@@ -32,7 +34,7 @@ services:
     image: mongo
     container_name: mongo
     ports:
-      - "27018:27017"
+      - "27018:27017"  # Exposing MongoDB on a different port
     volumes:
       - mongo-data:/data/db
     networks:
