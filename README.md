@@ -26,44 +26,48 @@ Ensure you have the following tools installed:
 
 # Project Setup
 1. Clone the Repository
+```
 git clone https://github.com/your-username/react-todo-app.git  
 cd react-todo-app  
-
-2. Frontend Setup
+```
+3. Frontend Setup
+```
   - cd frontend  
   - npm install  
   - npm start  
-
+```
 This starts the React development server at http://localhost:3000.
 
 4. Backend Setup
-
+```
   - cd backend  
   - npm install  
   - node server.js
-      
+```      
 The backend server will start on http://localhost:5000.
 
 
 # Dockerizing the Application
 
-Build Docker Images
+Build Docker Images:
 From the root directory:
+```
 docker-compose build  
-
+```
 Run Docker Containers
+```
 docker-compose up  
-
+```
 5. Deploying to Kubernetes
 Apply Kubernetes Manifests
-
+```
 kubectl apply -f manifests/ 
-
+```
 Verify Deployment
-
+```
 kubectl get pods  
 kubectl get services  
-
+```
 # CI/CD Pipeline with GitHub Actions
 
 1. Setup GitHub Secrets:
