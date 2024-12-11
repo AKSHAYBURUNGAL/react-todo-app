@@ -2,14 +2,14 @@
 Overview
 This project is a full-stack To-Do List application developed with the following stack:
 ```
--Frontend: React.js
+-Frontend: React.js, HTMl, CSS.
 -Backend: Node.js/Express.js
 -Database: MongoDB
 -Deployment: Dockerized and deployed on Kubernetes
 -CI/CD Pipeline: Automated testing and deployment using GitHub Actions.
 ```
-```
 # Features
+```
  -Add, edit, and delete tasks with a user-friendly interface.
  -Real-time data updates with a connected backend and database.
  -Scalable and containerized architecture using Docker and Kubernetes.
