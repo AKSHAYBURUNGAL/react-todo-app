@@ -1,29 +1,30 @@
 # Full-Stack To-Do List Application
 Overview
 This project is a full-stack To-Do List application developed with the following stack:
-
+```
 -Frontend: React.js
 -Backend: Node.js/Express.js
 -Database: MongoDB
 -Deployment: Dockerized and deployed on Kubernetes
 -CI/CD Pipeline: Automated testing and deployment using GitHub Actions.
-
+```
+```
 # Features
  -Add, edit, and delete tasks with a user-friendly interface.
  -Real-time data updates with a connected backend and database.
  -Scalable and containerized architecture using Docker and Kubernetes.
  -Automated testing and deployment pipeline.
-
+```
 # Getting Started
 Prerequisites
 Ensure you have the following tools installed:
-
+```
  -Node.js
  -Docker
  -kubectl
  -Terraform
  -MongoDB.
-
+```
 # Project Setup
 1. Clone the Repository
 ```
@@ -72,9 +73,7 @@ kubectl get services
 
 1. Setup GitHub Secrets:
  Add the following secrets to your GitHub repository:
-
- -DOCKER_USERNAME and DOCKER_PASSWORD for DockerHub.
- -KUBE_CONFIG for your Kubernetes cluster configuration.
+DOCKER_USERNAME and DOCKER_PASSWORD for DockerHub.KUBE_CONFIG for your Kubernetes cluster configuration.
 
 2. Pipeline Process:
 -Runs tests automatically on pull requests.
@@ -108,7 +107,7 @@ react-todo-app/
 ![Screenshot from 2024-12-04 20-35-44](https://github.com/user-attachments/assets/ac323c86-0ea9-4467-bbc5-feee681cc194)
 
 
-#License
+# License
 
 This project is licensed under the MIT License.
 
