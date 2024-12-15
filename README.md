@@ -1,30 +1,30 @@
 # Full-Stack To-Do List Application
 Overview
 This project is a full-stack To-Do List application developed with the following stack:
-```
--Frontend: React.js, HTMl, CSS.
--Backend: Node.js/Express.js
--Database: MongoDB
--Deployment: Dockerized and deployed on Kubernetes
--CI/CD Pipeline: Automated testing and deployment using GitHub Actions.
-```
+
+ - Frontend: React.js, HTMl, CSS.
+ - Backend: Node.js/Express.js
+ - Database: MongoDB
+ - Deployment: Dockerized and deployed on Kubernetes
+ - CI/CD Pipeline: Automated testing and deployment using GitHub Actions.
+
 # Features
-```
- -Add, edit, and delete tasks with a user-friendly interface.
- -Real-time data updates with a connected backend and database.
- -Scalable and containerized architecture using Docker and Kubernetes.
- -Automated testing and deployment pipeline.
-```
+
+ - Add, edit, and delete tasks with a user-friendly interface.
+ - Real-time data updates with a connected backend and database.
+ - Scalable and containerized architecture using Docker and Kubernetes.
+ - Automated testing and deployment pipeline.
+ 
 # Getting Started
 Prerequisites
 Ensure you have the following tools installed:
-```
- -Node.js
- -Docker
- -kubectl
- -Terraform
- -MongoDB.
-```
+
+ - Node.js
+ - Docker
+ - kubectl
+ - Terraform
+ - MongoDB.
+
 # Project Setup
 1. Clone the Repository
 ```
@@ -76,9 +76,9 @@ kubectl get services
 DOCKER_USERNAME and DOCKER_PASSWORD for DockerHub.KUBE_CONFIG for your Kubernetes cluster configuration.
 
 2. Pipeline Process:
--Runs tests automatically on pull requests.
--Builds Docker images and pushes them to DockerHub.
--Deploys to the Kubernetes cluster.
+- Runs tests automatically on pull requests.
+- Builds Docker images and pushes them to DockerHub.
+- Deploys to the Kubernetes cluster.
 
 # File Structure
 
