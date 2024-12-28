@@ -33,17 +33,17 @@ cd react-todo-app
 ```
 3. Frontend Setup
 ```
-  - cd frontend  
-  - npm install  
-  - npm start  
+   cd frontend  
+   npm install  
+   npm start  
 ```
 This starts the React development server at http://localhost:3000.
 
 4. Backend Setup
 ```
-  - cd backend  
-  - npm install  
-  - node server.js
+  cd backend  
+  npm install  
+  node server.js
 ```      
 The backend server will start on http://localhost:5000.
 
